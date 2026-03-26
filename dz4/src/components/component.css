@@ -1,0 +1,17 @@
+.header {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 2px rgb(202, 238, 255);
+    background: linear-gradient(to bottom, rgb(169, 189, 226), rgb(138, 170, 231), cornflowerblue);
+}
+
+.section-title {
+    background: linear-gradient(to top, rgb(169, 189, 226, 0.5), rgb(138, 170, 231), cornflowerblue);
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 2px rgb(202, 238, 255);
+}

@@ -1,0 +1,79 @@
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
+    background: linear-gradient(to bottom, rgba(169, 189, 226, 0.5), rgba(138, 170, 231, 0.5), rgb(100, 149, 237, 0.5));
+}
+
+.recipe-header {
+    font-size: 1.5rem;
+}
+
+.recipe-description-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
+}
+
+.recipe-description {
+    color: rgb(88, 88, 88);
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.recipe-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 1rem;
+}
+
+.recipe-items {
+    align-self: self-start;
+    border: 1px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+    background: rgb(231, 231, 231);
+}
+
+.recipe-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 1rem;
+}
+
+.recipe-cooking {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    text-align: left;
+}
+
+.recipe-cooking-step {
+    justify-content: start;
+}
+
+.recipe-cooking-step-header {
+    font-weight: bold;
+    color: grey;
+}
+
+.recipe-cooking-step-text {
+    font-style: italic;
+}
